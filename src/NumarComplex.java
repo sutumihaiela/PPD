@@ -23,4 +23,9 @@ public class NumarComplex {
     public void setImag(Integer imag) {
         this.imag = imag;
     }
+
+    @Override
+    public String toString() {
+        return real + "+" + imag + "i";
+    }
 }
